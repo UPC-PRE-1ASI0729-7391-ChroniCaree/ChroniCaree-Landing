@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeApp() {
     console.log('Initializing app...');
     setupMobileMenu();
+    setupStickyHeader();
     setupAnimations();
     setupFormHandling();
     setupSmoothScrolling();
@@ -107,6 +108,42 @@ function setupMouseTrackingCards() {
         nav.classList.remove('active');
         document.body.classList.remove('menu-open');
     }
+}
+
+// STICKY HEADER FUNCTIONALITY
+function setupStickyHeader() {
+    const header = document.getElementById('header');
+    let lastScrollTop = 0;
+    let scrollDirection = 'up';
+    
+    if (!header) return;
+    
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // Determinar dirección del scroll
+        if (scrollTop > lastScrollTop) {
+            scrollDirection = 'down';
+        } else {
+            scrollDirection = 'up';
+        }
+        
+        // Añadir clase 'scrolled' cuando se hace scroll
+        if (scrollTop > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+        
+        // Ocultar header cuando se hace scroll hacia abajo rápido
+        if (scrollDirection === 'down' && scrollTop > 200) {
+            header.classList.add('hidden');
+        } else {
+            header.classList.remove('hidden');
+        }
+        
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, { passive: true });
 }
 
 
