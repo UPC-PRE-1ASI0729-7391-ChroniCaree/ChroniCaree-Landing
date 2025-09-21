@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "ChroniCaree - Transforming chronic disease care",
+    "description": "Digital platform that revolutionizes chronic disease care from home with intelligent monitoring and proactive prevention"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "history": "History",
+    "team": "Team",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Transforming chronic disease care from home",
+    "subtitle": "A digital platform that simplifies monitoring, improves treatment adherence and prevents complications before they occur",
+    "btnPrimary": "Explore Solutions",
+    "btnSecondary": "View Demo",
+    "imageAlt": "ChroniCaree Platform"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Learn about our mission, vision and values",
+    "mission": {
+      "title": "Mission",
+      "description": "Democratize self-care in chronic diseases, bringing patients and medical teams closer to digital tools for proactive, simple and person-centered monitoring."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be the leading platform in Latin America for comprehensive chronic disease management, transforming the care experience for both patients and healthcare professionals."
+    },
+    "values": {
+      "title": "Values",
+      "description": "Our fundamental principles that guide every decision",
+      "items": {
+        "innovation": "Continuous innovation",
+        "empathy": "Empathy and understanding",
+        "quality": "Quality and excellence",
+        "accessibility": "Universal accessibility",
+        "privacy": "Privacy and security",
+        "collaboration": "Medical collaboration"
+      }
+    },
+    "stats": {
+      "patients": "10,000+ Patients",
+      "hospitals": "50+ Hospitals",
+      "satisfaction": "98% Satisfaction",
+      "reduction": "40% Reduction in complications"
+    }
+  },
+  "history": {
+    "title": "Our Story",
+    "subtitle": "The evolution of ChroniCaree: from concept to digital health revolution",
+    "stats": {
+      "hospitalizations": "reduction in preventable hospitalizations",
+      "adherence": "improvement in treatment adherence",
+      "satisfaction": "satisfaction from patients and physicians"
+    },
+    "mission": {
+      "title": "Our mission is simple but powerful",
+      "description": "To transform chronic disease care into an experience that connects, empowers and improves lives. Every patient deserves personalized, accessible and effective care.",
+      "button": "Learn about our impact"
+    },
+    "timeline": {
+      "2022": {
+        "title": "Birth of ChroniCaree",
+        "description": "Our journey began with a simple idea: to improve the quality of life for people with chronic diseases. We started developing our first prototypes and conducting research with patients and doctors."
+      },
+      "2023": {
+        "title": "First implementations",
+        "description": "We launched our pilot program in 5 healthcare centers. The results exceeded our expectations: 75% improvement in medication adherence and significant reduction in emergency room visits."
+      },
+      "2024": {
+        "title": "Growth and recognition",
+        "description": "We expanded to 50+ healthcare institutions across the country. We received the 'Digital Health Innovation' award and formed strategic partnerships with leading technology companies."
+      },
+      "2025": {
+        "title": "International expansion",
+        "description": "Today we are present in multiple countries, serving over 100,000 patients and 5,000 healthcare professionals. Our AI continues to evolve, offering increasingly personalized and effective care."
+      }
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the experts behind ChroniCaree",
+    "members": {
+      "ceo": {
+        "name": "Andreow Jomark Santiago Peña",
+        "role": "CEO & Founder",
+        "description": "Visionary in medical technology with extensive experience in digital health transformation."
+      },
+      "cto": {
+        "name": "Carlos Alberto Lopez Goitia",
+        "role": "CTO & Co-founder",
+        "description": "Expert in technology and development of scalable digital platforms for the healthcare sector."
+      },
+      "cmo": {
+        "name": "Schneider Carlos Delgado Carrasco",
+        "role": "Chief Medical Officer",
+        "description": "Medical specialist in chronic diseases with experience in preventive medicine."
+      },
+      "designer": {
+        "name": "Sebastian Martin Beingolea Montalvo",
+        "role": "Chief Product Officer",
+        "description": "Specialist in user experience and patient-centered product design."
+      },
+      "developer": {
+        "name": "Alejandro Nicolas Barturen Guzman",
+        "role": "Chief Operations Officer",
+        "description": "Expert in hospital operations and business growth in the healthcare sector."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Solutions",
+    "subtitle": "Comprehensive platform designed to revolutionize chronic disease care",
+    "patients": {
+      "title": "For Patients",
+      "subtitle": "Tools that empower patients for active self-care",
+      "stats": {
+        "patients": "Patients",
+        "satisfaction": "Satisfaction"
+      },
+      "features": {
+        "mobile": {
+          "title": "Intuitive Mobile App",
+          "description": "Easy-to-use application to record symptoms, medications and vital signs from the comfort of your home.",
+          "benefits": {
+            "reminders": "Smart reminders",
+            "simple": "Simple recording",
+            "daily": "Daily tracking"
+          }
+        },
+        "planner": {
+          "title": "Care Planner",
+          "description": "Organize your medical appointments, medications and exercise routines in a personalized calendar.",
+          "benefits": {
+            "calendar": "Synchronized medical agenda",
+            "routines": "Personalized routines"
+          }
+        },
+        "monitor": {
+          "title": "Personal Health Monitor",
+          "description": "Continuous tracking of your health metrics with personalized alerts and adaptive advice.",
+          "benefits": {
+            "metrics": "Personal metrics",
+            "alerts": "Preventive alerts"
+          }
+        }
+      },
+      "cta": {
+        "button": "Join Us Now",
+        "subtitle": "Start your journey towards better self-care"
+      }
+    },
+    "hospitals": {
+      "title": "For Hospitals and Doctors",
+      "subtitle": "SaaS platform that optimizes institutional management of chronic patients",
+      "stats": {
+        "hospitals": "Hospitals",
+        "doctors": "Doctors"
+      },
+      "features": {
+        "dashboard": {
+          "title": "Hospital Dashboard",
+          "description": "Centralized control panel to monitor chronic patients in real time with advanced metrics.",
+          "benefits": {
+            "realtime": "Real-time metrics",
+            "alerts": "Automatic alerts",
+            "reports": "Custom reports"
+          }
+        },
+        "management": {
+          "title": "Patient Management",
+          "description": "Intelligent system to organize, prioritize and track multiple chronic patients.",
+          "benefits": {
+            "intelligent": "Intelligent management",
+            "prioritization": "Automatic prioritization"
+          }
+        },
+        "communication": {
+          "title": "Secure Communication",
+          "description": "HIPAA compliant communication platform for doctors and patients with integrated medical history.",
+          "benefits": {
+            "hipaa": "HIPAA compliant",
+            "history": "Integrated history"
+          }
+        }
+      },
+      "membership": {
+        "title": "Hospital Membership System",
+        "description": "Scalable subscription model that reduces operating costs and improves quality of care. Plans based on the number of active patients with 24/7 support.",
+        "benefits": {
+          "cost": "30% cost reduction",
+          "support": "24/7 support included",
+          "training": "Staff training"
+        }
+      },
+      "cta": {
+        "button": "Request Hospital Demo",
+        "subtitle": "Transform chronic patient management in your institution"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "subtitle": "Real testimonials from patients and professionals who have transformed their care experience",
+    "items": {
+      "patient1": {
+        "text": "ChroniCaree has completely transformed how I manage my diabetes. I now feel more secure and in control of my health.",
+        "author": "María González",
+        "role": "Diabetic patient"
+      },
+      "doctor1": {
+        "text": "As a doctor, this platform allows me to track my chronic patients more effectively. Real-time data is invaluable.",
+        "author": "Dr. Carlos Mendoza",
+        "role": "Endocrinologist"
+      },
+      "patient2": {
+        "text": "The peace of mind I get from being able to monitor my mother's health remotely is priceless. Excellent platform.",
+        "author": "Ana Rodríguez",
+        "role": "Patient's family member"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "We resolve the most common doubts about ChroniCaree",
+    "patients": {
+      "title": "For Patients",
+      "items": {
+        "start": {
+          "question": "How can I start using ChroniCaree?",
+          "answer": "It's very simple. You just need to download our app from your affiliated hospital, register with the information provided by your doctor, and follow the 5-minute interactive tutorial. That's it! You'll start receiving reminders and can record your health data immediately."
+        },
+        "security": {
+          "question": "Is my health data secure?",
+          "answer": "Absolutely. We comply with the strictest medical security standards (HIPAA), use end-to-end encryption, and your data is never shared without your explicit authorization. Your privacy is our number one priority."
+        },
+        "forget": {
+          "question": "What happens if I forget to record my data?",
+          "answer": "Don't worry. The app will send friendly reminders, and you can record data from previous days. Additionally, our system learns your patterns and adjusts reminders to be more convenient for you."
+        },
+        "replace": {
+          "question": "Does ChroniCaree replace doctor visits?",
+          "answer": "No, ChroniCaree complements and improves your medical care. It helps you arrive better prepared for your appointments, keeps your doctor informed between visits, and can help detect changes that require early attention."
+        },
+        "offline": {
+          "question": "Does it work without internet?",
+          "answer": "Yes, you can record your data offline and it will sync automatically when you have connection. Basic functions like reminders and recording work perfectly without internet."
+        }
+      }
+    },
+    "doctors": {
+      "title": "For Doctors and Hospitals",
+      "items": {
+        "integration": {
+          "question": "How does ChroniCaree integrate with our hospital system?",
+          "answer": "We offer complete integration with major electronic medical record systems (EMR/EHR). Our technical team handles the entire implementation process, including data migration, staff training and ongoing support."
+        },
+        "implementation": {
+          "question": "How long does implementation take?",
+          "answer": "Typical implementation takes 2-4 weeks, including setup, system integration, staff training and pilot testing. We provide 24/7 support throughout the entire process."
+        },
+        "diseases": {
+          "question": "What types of chronic diseases does the platform handle?",
+          "answer": "ChroniCaree is effective for diabetes, hypertension, heart disease, COPD, arthritis, and many other chronic conditions. Our protocols are customizable according to the specific needs of each specialty."
+        },
+        "pricing": {
+          "question": "How does the pricing model work?",
+          "answer": "We offer scalable plans based on the number of active patients. Includes all functionalities, updates, technical support and training. No hidden costs or surprises."
+        },
+        "results": {
+          "question": "What results can we expect?",
+          "answer": "Our clients report: 45% reduction in preventable hospitalizations, 80% improvement in treatment adherence, 60% reduction in emergency calls, and 95% satisfaction from both patients and physicians."
+        }
+      }
+    },
+    "contact": {
+      "title": "Didn't find your answer?",
+      "subtitle": "Our team is here to help you with any specific questions",
+      "email": "Send an Email",
+      "phone": "Call Now"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "Transforming chronic disease care through innovative and patient-centered technology."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "items": {
+        "home": "Home",
+        "about": "About Us",
+        "team": "Our Team",
+        "services": "Services",
+        "history": "Our History",
+        "testimonials": "Testimonials",
+        "faq": "Frequently Asked Questions"
+      }
+    },
+    "services": {
+      "title": "Services",
+      "items": {
+        "patients": "For Patients",
+        "hospitals": "For Hospitals",
+        "monitoring": "Continuous Monitoring",
+        "analytics": "Predictive Analytics"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "info@chronicaree.com",
+      "phone": "+51 999 888 777",
+      "address": "Lima, Peru"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Legal Notice"
+    },
+    "copyright": "© 2025 ChroniCaree by Chronisys. All rights reserved."
+  }
+}
