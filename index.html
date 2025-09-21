@@ -19,15 +19,21 @@
                 </div>
                 <nav class="nav" id="nav">
                     <ul class="nav-list">
-                        <li><a href="#home" class="nav-link">Inicio</a></li>
-                        <li><a href="#about" class="nav-link">Nosotros</a></li>
-                        <li><a href="#team" class="nav-link">Equipo</a></li>
-                        <li><a href="#services" class="nav-link">Servicios</a></li>
-                        <li><a href="#historia" class="nav-link">Historia</a></li>
-                        <li><a href="#testimonials" class="nav-link">Testimonios</a></li>
-                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="#home" class="nav-link" data-i18n="nav.home">Inicio</a></li>
+                        <li><a href="#about" class="nav-link" data-i18n="nav.about">Nosotros</a></li>
+                        <li><a href="#team" class="nav-link" data-i18n="nav.team">Equipo</a></li>
+                        <li><a href="#services" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+                        <li><a href="#historia" class="nav-link" data-i18n="nav.history">Historia</a></li>
+                        <li><a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Testimonios</a></li>
+                        <li><a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a></li>
                     </ul>
                 </nav>
+                <!-- Language Switcher -->
+                <div class="language-switcher" id="language-toggle" aria-label="Cambiar idioma / Switch language">
+                    <span class="lang-option active" data-lang="es">ES</span>
+                    <span class="lang-divider">|</span>
+                    <span class="lang-option" data-lang="en">EN</span>
+                </div>
                 <button class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
@@ -41,14 +47,14 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Transformando el cuidado de enfermedades crónicas desde casa</h1>
-                <p class="hero-subtitle">Una plataforma digital que simplifica el seguimiento, mejora la adherencia al tratamiento y previene complicaciones antes de que ocurran</p>
+                <h1 class="hero-title" data-i18n="hero.title">Transformando el cuidado de enfermedades crónicas desde casa</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Una plataforma digital que simplifica el seguimiento, mejora la adherencia al tratamiento y previene complicaciones antes de que ocurran</p>
                 <div class="hero-buttons">
-                    <button class="btn btn-primary btn-large">Comenzar ahora</button>
+                    <button class="btn btn-primary btn-large" data-i18n="hero.btnPrimary">Comenzar ahora</button>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="/src/assets/img/log chroniCare.png" alt="ChroniCaree Platform">
+                <img src="/src/assets/img/log chroniCare.png" alt="ChroniCaree Platform" data-i18n-alt="hero.imageAlt">
             </div>
         </div>
     </section>
@@ -57,8 +63,8 @@
     <section class="about" id="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Sobre Nosotros</h2>
-                <p class="section-subtitle">Conoce nuestra misión, visión y valores</p>
+                <h2 class="section-title" data-i18n="about.title">Sobre Nosotros</h2>
+                <p class="section-subtitle" data-i18n="about.subtitle">Conoce nuestra misión, visión y valores</p>
             </div>
             <div class="about-content">
                 <div class="about-cards-top">
@@ -67,8 +73,8 @@
                             <i class="fas fa-bullseye"></i>
                         </div>
                         <div class="about-card-content">
-                            <h3>Nuestra Misión</h3>
-                            <p>Democratizar el autocuidado en enfermedades crónicas, acercando a pacientes y equipos médicos herramientas digitales que permitan un seguimiento proactivo, simple y centrado en la persona.</p>
+                            <h3 data-i18n="about.mission.title">Nuestra Misión</h3>
+                            <p data-i18n="about.mission.description">Democratizar el autocuidado en enfermedades crónicas, acercando a pacientes y equipos médicos herramientas digitales que permitan un seguimiento proactivo, simple y centrado en la persona.</p>
                         </div>
                     </div>
                     
@@ -77,8 +83,8 @@
                             <i class="fas fa-eye"></i>
                         </div>
                         <div class="about-card-content">
-                            <h3>Nuestra Visión</h3>
-                            <p>Ser la plataforma líder en Latinoamérica para el manejo remoto de enfermedades crónicas, construyendo un ecosistema donde la tecnología y la empatía se unen para prevenir, no solo reaccionar.</p>
+                            <h3 data-i18n="about.vision.title">Nuestra Visión</h3>
+                            <p data-i18n="about.vision.description">Ser la plataforma líder en Latinoamérica para el manejo remoto de enfermedades crónicas, construyendo un ecosistema donde la tecnología y la empatía se unen para prevenir, no solo reaccionar.</p>
                         </div>
                     </div>
                 </div>
@@ -89,23 +95,23 @@
                             <i class="fas fa-heart"></i>
                         </div>
                         <div class="values-text">
-                            <h3>Nuestros Valores</h3>
+                            <h3 data-i18n="about.values.title">Nuestros Valores</h3>
                             <div class="values-list">
                                 <div class="value-item">
                                     <i class="fas fa-shield-alt"></i>
-                                    <span>Seguridad y privacidad de datos médicos</span>
+                                    <span data-i18n="about.values.items.privacy">Seguridad y privacidad de datos médicos</span>
                                 </div>
                                 <div class="value-item">
                                     <i class="fas fa-users"></i>
-                                    <span>Empatía y atención centrada en el paciente</span>
+                                    <span data-i18n="about.values.items.empathy">Empatía y atención centrada en el paciente</span>
                                 </div>
                                 <div class="value-item">
                                     <i class="fas fa-lightbulb"></i>
-                                    <span>Innovación tecnológica responsable</span>
+                                    <span data-i18n="about.values.items.innovation">Innovación tecnológica responsable</span>
                                 </div>
                                 <div class="value-item">
                                     <i class="fas fa-handshake"></i>
-                                    <span>Colaboración entre pacientes y profesionales</span>
+                                    <span data-i18n="about.values.items.collaboration">Colaboración entre pacientes y profesionales</span>
                                 </div>
                             </div>
                         </div>
@@ -115,19 +121,19 @@
                 <div class="about-stats">
                     <div class="stat-item">
                         <div class="stat-number" data-count="10000">1000</div>
-                        <div class="stat-label">Pacientes Monitoreados</div>
+                        <div class="stat-label" data-i18n="about.stats.patients">Pacientes Monitoreados</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number" data-count="50">50</div>
-                        <div class="stat-label">Hospitales Aliados</div>
+                        <div class="stat-label" data-i18n="about.stats.hospitals">Hospitales Aliados</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number" data-count="24">24</div>
-                        <div class="stat-label">Soporte 24/7</div>
+                        <div class="stat-label" data-i18n="about.stats.satisfaction">% Satisfacción</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number" data-count="95">95</div>
-                        <div class="stat-label">% Satisfacción</div>
+                        <div class="stat-label" data-i18n="about.stats.reduction">% Reducción en complicaciones</div>
                     </div>
                 </div>
             </div>
@@ -138,8 +144,8 @@
     <section class="historia" id="historia">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Nuestra Historia</h2>
-                <p class="section-subtitle">De una idea revolucionaria a la plataforma líder en cuidados crónicos</p>
+                <h2 class="section-title" data-i18n="history.title">Nuestra Historia</h2>
+                <p class="section-subtitle" data-i18n="history.subtitle">De una idea revolucionaria a la plataforma líder en cuidados crónicos</p>
             </div>
             
             <div class="historia-content">
@@ -213,8 +219,8 @@
     <section class="team" id="team">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Nuestro Equipo</h2>
-                <p class="section-subtitle">Conoce a los expertos detrás de ChroniCaree</p>
+                <h2 class="section-title" data-i18n="team.title">Nuestro Equipo</h2>
+                <p class="section-subtitle" data-i18n="team.subtitle">Conoce a los expertos detrás de ChroniCaree</p>
             </div>
             <div class="team-content">
                 <div class="team-cards">
@@ -281,8 +287,8 @@
     <section class="services" id="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Nuestras Soluciones</h2>
-                <p class="section-subtitle">Plataforma integral diseñada para revolucionar el cuidado de enfermedades crónicas</p>
+                <h2 class="section-title" data-i18n="services.title">Nuestras Soluciones</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">Plataforma integral diseñada para revolucionar el cuidado de enfermedades crónicas</p>
             </div>
             
             <!-- SERVICIOS PARA PACIENTES -->
@@ -468,8 +474,8 @@
     <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Lo que dicen nuestros usuarios</h2>
-                <p class="section-subtitle">Experiencias reales de pacientes y profesionales de la salud</p>
+                <h2 class="section-title" data-i18n="testimonials.title">Lo que dicen nuestros usuarios</h2>
+                <p class="section-subtitle" data-i18n="testimonials.subtitle">Experiencias reales de pacientes y profesionales de la salud</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
@@ -518,8 +524,8 @@
     <section class="faq" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Preguntas Frecuentes</h2>
-                <p class="section-subtitle">Resolvemos las dudas más comunes sobre ChroniCaree</p>
+                <h2 class="section-title" data-i18n="faq.title">Preguntas Frecuentes</h2>
+                <p class="section-subtitle" data-i18n="faq.subtitle">Resolvemos las dudas más comunes sobre ChroniCaree</p>
             </div>
             
             <div class="faq-content">
@@ -651,7 +657,7 @@
             <div class="footer-content">
                 <div class="footer-section brand-section">
                     <img src="/src/assets/img/log chroniCare.png" alt="ChroniCaree Logo" class="footer-logo">
-                    <p>Transformando el cuidado de enfermedades crónicas mediante tecnología innovadora y un enfoque centrado en el paciente.</p>
+                    <p data-i18n="footer.brand.description">Transformando el cuidado de enfermedades crónicas mediante tecnología innovadora y un enfoque centrado en el paciente.</p>
                     <div class="footer-social">
                         <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
@@ -661,15 +667,15 @@
                 </div>
                 
                 <div class="footer-section">
-                    <h4>Enlaces Rápidos</h4>
+                    <h4 data-i18n="footer.quickLinks.title">Enlaces Rápidos</h4>
                     <ul>
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#about">Sobre Nosotros</a></li>
-                        <li><a href="#team">Nuestro Equipo</a></li>
-                        <li><a href="#services">Servicios</a></li>
-                        <li><a href="#historia">Nuestra Historia</a></li>
-                        <li><a href="#testimonials">Testimonios</a></li>
-                        <li><a href="#faq">Preguntas Frecuentes</a></li>
+                        <li><a href="#home" data-i18n="footer.quickLinks.items.home">Inicio</a></li>
+                        <li><a href="#about" data-i18n="footer.quickLinks.items.about">Sobre Nosotros</a></li>
+                        <li><a href="#team" data-i18n="footer.quickLinks.items.team">Nuestro Equipo</a></li>
+                        <li><a href="#services" data-i18n="footer.quickLinks.items.services">Servicios</a></li>
+                        <li><a href="#historia" data-i18n="footer.quickLinks.items.history">Nuestra Historia</a></li>
+                        <li><a href="#testimonials" data-i18n="footer.quickLinks.items.testimonials">Testimonios</a></li>
+                        <li><a href="#faq" data-i18n="footer.quickLinks.items.faq">Preguntas Frecuentes</a></li>
                     </ul>
                 </div>
                 
@@ -723,6 +729,9 @@
         </div>
     </footer>
 
+    <!-- Scripts -->
+    <script src="src/js/i18n.js"></script>
+    <script src="src/js/lang-toggle.js"></script>
     <script src="src/js/script.js"></script>
     <script src="src/js/faq-fix.js"></script>
 </body>
