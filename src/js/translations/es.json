@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "title": "ChroniCaree - Transformando el cuidado de enfermedades crónicas",
+    "description": "Plataforma digital que revoluciona el cuidado de enfermedades crónicas desde casa con seguimiento inteligente y prevención proactiva"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "history": "Historia",
+    "team": "Equipo",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Transformando el cuidado de enfermedades crónicas desde casa",
+    "subtitle": "Una plataforma digital que simplifica el seguimiento, mejora la adherencia al tratamiento y previene complicaciones antes de que ocurran",
+    "btnPrimary": "Explorar Soluciones",
+    "btnSecondary": "Ver Demo",
+    "imageAlt": "Plataforma ChroniCaree"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Conoce nuestra misión, visión y valores",
+    "mission": {
+      "title": "Misión",
+      "description": "Democratizar el autocuidado en enfermedades crónicas, acercando a pacientes y equipos médicos herramientas digitales para un seguimiento proactivo, simple y centrado en la persona."
+    },
+    "vision": {
+      "title": "Visión",
+      "description": "Ser la plataforma líder en Latinoamérica para el manejo integral de enfermedades crónicas, transformando la experiencia de cuidado tanto para pacientes como para profesionales de la salud."
+    },
+    "values": {
+      "title": "Valores",
+      "description": "Nuestros principios fundamentales que guían cada decisión",
+      "items": {
+        "innovation": "Innovación continua",
+        "empathy": "Empatía y comprensión",
+        "quality": "Calidad y excelencia",
+        "accessibility": "Accesibilidad universal",
+        "privacy": "Privacidad y seguridad",
+        "collaboration": "Colaboración médica"
+      }
+    },
+    "stats": {
+      "patients": "10,000+ Pacientes",
+      "hospitals": "50+ Hospitales",
+      "satisfaction": "98% Satisfacción",
+      "reduction": "40% Reducción en complicaciones"
+    }
+  },
+  "history": {
+    "title": "Nuestra Historia",
+    "subtitle": "De una idea revolucionaria a la plataforma líder en cuidados crónicos",
+    "timeline": {
+      "2021": {
+        "title": "Fundación",
+        "description": "Nació la idea de revolucionar el cuidado de enfermedades crónicas"
+      },
+      "2022": {
+        "title": "Primer Prototipo",
+        "description": "Desarrollo del MVP con funcionalidades básicas de seguimiento"
+      },
+      "2023": {
+        "title": "Expansión",
+        "description": "Alianzas estratégicas con hospitales y validación clínica"
+      },
+      "2024": {
+        "title": "Crecimiento",
+        "description": "Más de 10,000 pacientes activos y 50 hospitales afiliados"
+      }
+    },
+    "stats": {
+      "founded": "Fundada en 2021",
+      "team": "25+ Profesionales",
+      "investment": "$2M+ Inversión"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Transformar el cuidado de la salud a través de la tecnología, haciendo que el manejo de enfermedades crónicas sea más accesible, efectivo y humano."
+    }
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "subtitle": "Conoce a los expertos detrás de ChroniCaree",
+    "members": {
+      "ceo": {
+        "name": "Carlos López",
+        "role": "CEO & Fundador",
+        "description": "Visionario en tecnología médica con más de 10 años de experiencia transformando la atención sanitaria."
+      },
+      "cto": {
+        "name": "Alejandro Barturen",
+        "role": "CTO",
+        "description": "Experto en desarrollo de software y arquitectura de sistemas escalables para el sector salud."
+      },
+      "cmo": {
+        "name": "Schneider Delgado",
+        "role": "CMO",
+        "description": "Estratega en marketing digital especializado en soluciones B2B para el sector healthcare."
+      },
+      "designer": {
+        "name": "Andreow Santiago",
+        "role": "Head of Design",
+        "description": "Diseñador UX/UI especializado en interfaces médicas intuitivas y centradas en el usuario."
+      },
+      "developer": {
+        "name": "Sebastian Martin",
+        "role": "Lead Developer",
+        "description": "Desarrollador full-stack con expertise en aplicaciones de salud digital y sistemas seguros."
+      }
+    }
+  },
+  "services": {
+    "title": "Nuestras Soluciones",
+    "subtitle": "Plataforma integral diseñada para revolucionar el cuidado de enfermedades crónicas",
+    "patients": {
+      "title": "Para Pacientes",
+      "subtitle": "Herramientas intuitivas para el autocuidado y seguimiento personalizado",
+      "features": {
+        "monitoring": {
+          "title": "Monitoreo Continuo",
+          "description": "Seguimiento diario de síntomas, signos vitales y medicamentos con recordatorios inteligentes"
+        },
+        "education": {
+          "title": "Educación Personalizada",
+          "description": "Contenido educativo adaptado a tu condición específica y nivel de comprensión"
+        },
+        "communication": {
+          "title": "Comunicación Directa",
+          "description": "Canal seguro con tu equipo médico para consultas y seguimiento en tiempo real"
+        },
+        "analytics": {
+          "title": "Análisis de Tendencias",
+          "description": "Reportes visuales de tu progreso y patrones de salud para tomar mejores decisiones"
+        },
+        "emergency": {
+          "title": "Alertas de Emergencia",
+          "description": "Sistema inteligente que detecta patrones de riesgo y activa protocolos de emergencia"
+        },
+        "family": {
+          "title": "Conexión Familiar",
+          "description": "Permite a familiares autorizados seguir tu progreso y recibir actualizaciones importantes"
+        }
+      }
+    },
+    "hospitals": {
+      "title": "Para Hospitales y Doctores",
+      "subtitle": "Gestión centralizada y análisis avanzado para optimizar el cuidado de pacientes crónicos",
+      "plans": {
+        "basic": {
+          "title": "Plan Básico",
+          "price": "$299",
+          "period": "/mes",
+          "description": "Perfecto para clínicas pequeñas",
+          "features": [
+            "Hasta 100 pacientes activos",
+            "Dashboard básico de monitoreo",
+            "Alertas automáticas por email",
+            "Reportes mensuales estándar",
+            "Soporte por email"
+          ]
+        },
+        "professional": {
+          "title": "Plan Profesional",
+          "price": "$599",
+          "period": "/mes",
+          "description": "Ideal para hospitales medianos",
+          "features": [
+            "Hasta 500 pacientes activos",
+            "Dashboard avanzado con IA",
+            "Alertas en tiempo real",
+            "Reportes personalizables",
+            "API completa para integración",
+            "Soporte telefónico prioritario"
+          ],
+          "badge": "Más Popular"
+        },
+        "enterprise": {
+          "title": "Plan Enterprise",
+          "price": "Personalizado",
+          "period": "",
+          "description": "Para grandes instituciones",
+          "features": [
+            "Pacientes ilimitados",
+            "Análisis predictivo con IA",
+            "Integración completa con sistemas hospitalarios",
+            "Reportes ejecutivos avanzados",
+            "Cumplimiento HIPAA garantizado",
+            "Gerente de cuenta dedicado",
+            "Soporte 24/7"
+          ]
+        }
+      },
+      "features": {
+        "dashboard": {
+          "title": "Panel Centralizado",
+          "description": "Vista unificada de todos tus pacientes crónicos con métricas en tiempo real y alertas prioritarias"
+        },
+        "ai": {
+          "title": "Inteligencia Artificial",
+          "description": "Algoritmos avanzados que predicen complicaciones y sugieren intervenciones preventivas"
+        },
+        "integration": {
+          "title": "Integración Completa",
+          "description": "Conecta seamlessly con tu sistema hospitalario existente (HIS/EMR)"
+        },
+        "reports": {
+          "title": "Reportes Avanzados",
+          "description": "Análisis detallados de resultados clínicos y métricas de calidad de atención"
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Testimonios reales de pacientes y profesionales que han transformado su experiencia de cuidado",
+    "items": {
+      "patient1": {
+        "text": "ChroniCaree ha transformado completamente cómo manejo mi diabetes. Ahora me siento más segura y conectada con mi equipo médico.",
+        "author": "María González",
+        "role": "Paciente con Diabetes Tipo 2"
+      },
+      "doctor1": {
+        "text": "La plataforma nos permite monitorear a nuestros pacientes de manera más efectiva y prevenir complicaciones antes de que ocurran.",
+        "author": "Dr. Roberto Sánchez",
+        "role": "Endocrinólogo - Hospital Nacional"
+      },
+      "patient2": {
+        "text": "Los recordatorios inteligentes y el seguimiento personalizado han mejorado significativamente mi adherencia al tratamiento.",
+        "author": "Juan Pérez",
+        "role": "Paciente con Hipertensión"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentra respuestas a las dudas más comunes sobre ChroniCaree",
+    "items": {
+      "what": {
+        "question": "¿Qué es ChroniCaree?",
+        "answer": "ChroniCaree es una plataforma digital integral diseñada para revolucionar el cuidado de enfermedades crónicas. Conectamos pacientes, familiares y profesionales de la salud a través de herramientas inteligentes de seguimiento, educación y comunicación."
+      },
+      "how": {
+        "question": "¿Cómo funciona la plataforma?",
+        "answer": "Los pacientes registran diariamente sus síntomas, signos vitales y medicamentos a través de nuestra app intuitiva. Nuestra IA analiza estos datos para detectar patrones de riesgo y enviar alertas automáticas al equipo médico cuando es necesario."
+      },
+      "diseases": {
+        "question": "¿Qué enfermedades crónicas soporta?",
+        "answer": "Actualmente soportamos diabetes, hipertensión, enfermedad renal crónica, EPOC, insuficiencia cardíaca y artritis reumatoide. Constantemente agregamos nuevas condiciones basadas en las necesidades de nuestros usuarios."
+      },
+      "security": {
+        "question": "¿Es segura mi información médica?",
+        "answer": "Absolutamente. Cumplimos con los más altos estándares de seguridad incluyendo HIPAA, encriptación end-to-end, y auditorías regulares de seguridad. Tu información está protegida con tecnología de grado bancario."
+      },
+      "cost": {
+        "question": "¿Cuánto cuesta usar ChroniCaree?",
+        "answer": "Para pacientes, ChroniCaree es gratuito cuando tu hospital o clínica tiene una suscripción activa. Para instituciones, ofrecemos planes flexibles desde $299/mes. Contáctanos para una cotización personalizada."
+      },
+      "support": {
+        "question": "¿Qué tipo de soporte técnico ofrecen?",
+        "answer": "Ofrecemos soporte multicanal: chat en vivo, email, teléfono y videollamadas. Nuestro equipo de soporte incluye profesionales de la salud que entienden las necesidades específicas del sector médico."
+      }
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "Transformando el cuidado de enfermedades crónicas a través de tecnología innovadora y centrada en el paciente."
+    },
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "items": {
+        "home": "Inicio",
+        "about": "Sobre Nosotros",
+        "team": "Nuestro Equipo",
+        "services": "Servicios",
+        "history": "Nuestra Historia",
+        "testimonials": "Testimonios",
+        "faq": "Preguntas Frecuentes"
+      }
+    },
+    "services": {
+      "title": "Servicios",
+      "items": {
+        "patients": "Para Pacientes",
+        "hospitals": "Para Hospitales",
+        "monitoring": "Monitoreo Continuo",
+        "analytics": "Análisis Predictivo"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "info@chronicaree.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Health Tech Ave, Medical District"
+    },
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones",
+      "contact": "Contacto"
+    },
+    "copyright": "© 2024 ChroniCaree. Todos los derechos reservados."
+  }
+}
