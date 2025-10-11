@@ -14,6 +14,8 @@ function initializeApp() {
     
     // Inicializar FAQs directamente
     setupFAQ();
+    // Inicializar handlers para botones que abren la app
+    setupAppButtons();
 }
 
 // MOBILE MENU FUNCTIONALITY
@@ -703,4 +705,36 @@ if (typeof module !== 'undefined' && module.exports) {
         isValidEmail,
         setupFAQ
     };
+}
+
+/**
+ * Setup handlers for app buttons
+ * - Opens the product app in a new tab when clicking primary action buttons
+ * - Does NOT override form submit buttons (type="submit") or elements with data-app-link="false"
+ */
+function setupAppButtons() {
+    const APP_URL = 'https://chronicaree-frontend.onrender.com/';
+
+    // Delegate clicks on document to capture dynamically created buttons too
+    document.addEventListener('click', function (e) {
+        const btn = e.target.closest('.btn');
+        if (!btn) return;
+
+        // Ignore if explicitly opted out
+        if (btn.getAttribute('data-app-link') === 'false') return;
+
+    // If button is a submit control inside a FORM, don't override (allow standalone buttons without type)
+    if (btn.tagName === 'BUTTON' && btn.type && btn.type.toLowerCase() === 'submit' && btn.closest('form')) return;
+
+        // If it's an anchor with href that is not '#', let default behavior run
+        if (btn.tagName === 'A' && btn.getAttribute('href') && btn.getAttribute('href') !== '#') return;
+
+        // If the developer provided a custom click handler (data-no-delegate), skip
+        if (btn.hasAttribute('data-no-delegate')) return;
+
+    // Prevent default and open the app in a new tab
+    e.preventDefault();
+    console.debug('Opening ChroniCaree app from button:', btn);
+    window.open(APP_URL, '_blank', 'noopener,noreferrer');
+    }, { passive: false });
 }
