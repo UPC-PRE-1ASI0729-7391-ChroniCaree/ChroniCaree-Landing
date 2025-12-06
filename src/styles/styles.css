@@ -2023,6 +2023,43 @@ body {
     transform: none;
 }
 
+/* TEAM VIDEO - debajo de las cards */
+.team-video{
+  max-width: 960px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.team-video-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.team-video-subtitle{
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 18px;
+}
+
+/* Contenedor responsive 16:9 */
+.video-container{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.video-container iframe{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 /* TABLET STYLES */
 @media (min-width: 768px) {
     .hero .container {
@@ -2467,6 +2504,26 @@ html {
 .contact-options .btn {
     min-width: 160px;
 }
+
+/* FAQ VIDEO */
+.faq-video{
+  max-width: 960px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.faq-video-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.faq-video-subtitle{
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 18px;
+}
+
 
 /* ACCESSIBILITY */
 @media (prefers-reduced-motion: reduce) {
